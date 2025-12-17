@@ -14,7 +14,7 @@ public class student{
     {
         return id;
     }
-    public void setId(int id){
+    public void setId(Integer id){
         this.id=id;
     }
     public String getName(){
@@ -32,7 +32,7 @@ public class student{
     public student(){
 
     }
-    public student(int id,String name,String email){
+    public student(Integer id,String name,String email){
         this.id=id;
         this.name=name;
         this.email=email;
