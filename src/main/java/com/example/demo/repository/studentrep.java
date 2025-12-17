@@ -7,4 +7,3 @@ public interface studentrep extends JpaRepository<student,Integer>{
     
 }
 
-}
