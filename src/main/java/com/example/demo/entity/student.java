@@ -1,6 +1,7 @@
-package com.example.project.entity;
+package com.example.demo.entity;
 import java.time.LocalDate;
 public class student{
+    @GeneratedValue(strategy = Generation)
     private int id;
     private String name;
     private String email;
