@@ -1,6 +1,3 @@
-
-
-
 package com.example.sql.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
