@@ -1,10 +1,10 @@
-package com.example.sql.Entitydata;
+package com.example.demo.entity;
 import jakarta.persistence.entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-@entity
-public class Student {
+@Entity
+public class student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
